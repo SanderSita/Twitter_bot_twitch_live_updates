@@ -28,4 +28,12 @@ api request loop
 - sleep timer of 1 minute to prevent cached api request
 
 
+<h2>Run bot 24/7</h2>
+
+24/7 running can be done with replit.com and uptimerobot.com
+
+- create a replit repository and add use this template: https://replit.com/@SanderSita/xqctweetbotV2#index.js
+- go to uptimerobot and add a new monitor, select https and copy the website url from replit
+
+
 
