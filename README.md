@@ -30,7 +30,7 @@ api request loop
 
 <h2>Run bot 24/7</h2>
 
-24/7 running can be done with replit.com and uptimerobot.com
+24/7 running can be done with <a href="https://replit.com">replit.com</a> and <a href="https://uptimerobot.com">uptimerobot.com</a>
 
 - create a replit repository and add use this template: https://replit.com/@SanderSita/xqctweetbotV2#index.js
 - go to uptimerobot and add a new monitor, select https and copy the website url from replit
