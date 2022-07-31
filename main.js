@@ -2,22 +2,22 @@ const TwitchApi = require("node-twitch").default;
 const {TwitterApi} = require('twitter-api-v2');
 
 const twitch = new TwitchApi({
-	client_id: "5dqcvke26e4ugwxjhyufg90b1k4f6e",
-	client_secret: "873kkemfgs6q9mj4jm45l85wh57o4y"
+	client_id: "",
+	client_secret: ""
 });
 
 
 const twitterClient = new TwitterApi({
-    appKey: 'g0QYJmnau6xt3b9Cb3uREUbDb',
-    appSecret: 'tJJBL4YA8mODVeXedlVF6oMXhaFfWxo81O2LjBUGmuUisDG4Ef',
-    accessToken: '1383828146265362432-cVDxmaGxUKVyl2c6IUU0PNiobpcU4V',
-    accessSecret: 'I3YqpmuRWLMUI01bwLTkBLHls06yZChbjM6lt9gn4mahg',
+    appKey: '',
+    appSecret: '',
+    accessToken: '',
+    accessSecret: '',
 });
 
 let status = ""
 let has_been_offline = false
 let has_been_online = false
-let name = "teststream10234"
+let name = "xqc"
 let link = "https://www.twitch.tv/" + name
 let saved_game = ""
 
