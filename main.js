@@ -54,6 +54,7 @@ async function getStream(){
                 saved_game = ""
             }
         }
+	// 60 seconds between each check
         await sleep(60000)
     }
 }
